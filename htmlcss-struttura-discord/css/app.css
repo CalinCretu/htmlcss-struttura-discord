@@ -6,6 +6,30 @@
 
 .page-content {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.page-header {
+    justify-content: center;
+    background-color: cornflowerblue;
+    min-width: 1000px;
+    min-height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.debug .page-header {
+    justify-content: center;
+}
