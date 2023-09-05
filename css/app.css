@@ -200,26 +200,31 @@
     margin-bottom: 50px;
     min-width: 1200px;
     min-height: 600px;
+    
+}
 
+.row-box {
+    padding: 0;
 }
 
 .col-1 {
     background-color: #F08080;
     border: 2px dashed black;
     flex-basis: calc(100% / 2);
+    color: #F08080;
 }
 
 .col-2 {
     background-color: #20B2AA;
     border: 2px dashed white;
     flex-basis: calc(100% / 4);
+    color: #20B2AA;
 }
 
 
 
 
 .page-footer {
-    background-color: #23272A;
     padding: 10px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
@@ -258,7 +263,6 @@
     border: 2px dashed black;
     background-color: #FFB6C1;
     font-size: 25px;
-    
 }
 
 
@@ -304,3 +308,6 @@
     border: 2px dashed white;
 }
 
+.debug .page-footer {
+    background-color: #23272A;
+}
