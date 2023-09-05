@@ -21,7 +21,7 @@
 }
 /*section 1*/
 
-/*section 2*/
+/*section 2,3,4*/
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
 }
@@ -29,9 +29,27 @@
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
-/*section 2*/
+        /*section 2*/
+
+        /*section 3*/
+ .bg-gray {
+	background-color: #d3d3d3;
+}
+.row-reverse {
+	flex-direction: row-reverse;
+}
+        /*section 3*/
+
+
+
+
+
 
 /* MAIN */
+
+
+
+
 
 
 
