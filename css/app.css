@@ -3,25 +3,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/* HEADER */
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* HEADER */
-
 
 /* MAIN */
 
-/*section 1*/
+/*section header, 1, 5*/
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
 }
-/*section 1*/
+/*section header, 1, 5*/
 
-/*section 2,3,4*/
+/*section 2, 3, 4,*/
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
 }
@@ -29,7 +20,7 @@
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
-        /*section 2,4*/
+        /*section 2, 3, 4,*/
 
         /*section 3*/
  .bg-gray {
@@ -40,100 +31,15 @@
 }
         /*section 3*/
        
-
-
-
-
-
 /* MAIN */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer-section-7 {
-    background-color: #23272A;
-}
-
-.container-7 {
-    display: flex;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.row-7 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    min-width: 1200px;
-    min-height: 600px;
-    
-}
-
+/* FOOTER */
 
 .col-2 {
-    background-color: #20B2AA;
-    border: 2px dashed white;
-    flex-basis: calc(100% * 2 / 12);
-    color: #20B2AA;
+	flex-basis: calc((100% / 12) * 2);
 }
 
-
-
-
-.page-footer {
-    padding: 10px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-
-.container-footer {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.row-box {
-    display: flex;
-    border: 2px solid white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    min-width: 1200px;
-    min-height: 60px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7FFFD4;
-    padding: 0px;
-}
-
-
-.logo-footer {
-    border: 2px dashed black;
-    background-color: #FFB6C1;
-    font-size: 25px;
-}
-
-.button-footer {
-    border: 2px dashed black;
-    background-color: #FFB6C1;
-    font-size: 25px;
-}
-
-
-
+/* FOOTER */
 
 /* GENERAL RULES */
 .justify-between {
@@ -149,6 +55,12 @@
     display: flex;
     flex: wrap;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* GENERAL RULES */
 
 
@@ -170,11 +82,6 @@
 
 .debug .page-header {
 	background-color: aqua;
-	padding: 10px;
-}
-
-.debug .page-footer {
-	background-color: #23272a;
 	padding: 10px;
 }
 
@@ -213,3 +120,32 @@
 	min-height: 400px;
 }
 
+.debug .page-footer {
+	background-color: #23272a;
+	padding: 10px;
+}
+
+.debug footer [class^='col-'] {
+	min-height: 200px;
+	padding: 20px;
+	border: 2px dashed white;
+}
+
+.debug footer .col {
+	padding: 20px;
+	border: 2px dashed white;
+	color: white;
+    background-color: #F08080;
+}
+
+.debug .page-footer {
+	background-color: #23272a;
+	padding: 20px;
+}
+
+.debug footer .col-4 {
+	background-color: #F08080;
+}
+.debug footer .col-2 {
+	background-color: #20B2AA;
+}
